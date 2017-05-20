@@ -27,6 +27,21 @@ public class Node {
 
     @Override
     public String toString() {
-        return "Node{'" + name + "' " + vector + '}';
+        return "{'" + name + "', " + vector + '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Node)) return false;
+
+        Node node = (Node) o;
+
+        return name.equals(node.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return name.hashCode();
     }
 }

@@ -14,13 +14,13 @@ public class Graph {
         return edges;
     }
 
-    public void addEdge(Node node1, Node node2, double value){
+    public void addElement(Node node1, Node node2, double value){
         nodes.add(node1);
         nodes.add(node2);
         edges.add(new Edge(node1, node2, value));
     }
 
-    public void addEdge(Node node1){
+    public void addElement(Node node1){
         nodes.add(node1);
     }
 }

@@ -1,10 +1,16 @@
 package com.pk_projects.to_mst.structure;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Graph {
     private List<Node> nodes;
     private List<Edge> edges;
+
+    public Graph() {
+        nodes = new ArrayList<Node>();
+        edges = new ArrayList<Edge>();
+    }
 
     public List<Node> getNodes() {
         return nodes;
@@ -14,13 +20,24 @@ public class Graph {
         return edges;
     }
 
-    public void addElement(Node node1, Node node2, double value){
-        nodes.add(node1);
-        nodes.add(node2);
+    public void addElement(Node node1, Node node2, double value) {
+        if (!nodes.contains(node1)) {
+            nodes.add(node1);
+        }
+        if (!nodes.contains(node2)) {
+            nodes.add(node2);
+        }
         edges.add(new Edge(node1, node2, value));
     }
 
-    public void addElement(Node node1){
-        nodes.add(node1);
+    public void addElement(Node node) {
+        if (!nodes.contains(node)) {
+            nodes.add(node);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Graph{" + "nodes=" + nodes + ", edges=" + edges + '}';
     }
 }

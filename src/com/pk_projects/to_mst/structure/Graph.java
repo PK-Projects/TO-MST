@@ -36,6 +36,28 @@ public class Graph {
         }
     }
 
+    public List<Edge> getEdgesBeginInNode(Node node){
+        List<Edge> result = new ArrayList<Edge>();
+        for (Edge edge : edges) {
+            if (node.equals(edge.getNode1())) {
+                result.add(edge);
+            }
+        }
+
+        return result;
+    }
+
+    public List<Edge> getEdgesEndInNode(Node node){
+        List<Edge> result = new ArrayList<Edge>();
+        for (Edge edge : edges) {
+            if (node.equals(edge.getNode2())) {
+                result.add(edge);
+            }
+        }
+
+        return result;
+    }
+
     @Override
     public String toString() {
         return "Graph{" + "nodes=" + nodes + ", edges=" + edges + '}';

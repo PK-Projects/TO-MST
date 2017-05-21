@@ -36,7 +36,7 @@ public class Graph {
         }
     }
 
-    public List<Edge> getEdgesBeginInNode(Node node){
+    public List<Edge> getEdgesBeginInNode(Node node) {
         List<Edge> result = new ArrayList<Edge>();
         for (Edge edge : edges) {
             if (node.equals(edge.getNode1())) {
@@ -47,7 +47,7 @@ public class Graph {
         return result;
     }
 
-    public List<Edge> getEdgesEndInNode(Node node){
+    public List<Edge> getEdgesEndInNode(Node node) {
         List<Edge> result = new ArrayList<Edge>();
         for (Edge edge : edges) {
             if (node.equals(edge.getNode2())) {
@@ -56,6 +56,15 @@ public class Graph {
         }
 
         return result;
+    }
+
+    public Node getNodeByName(String name) {
+        for (Node node : nodes) {
+            if (node.getName().equals(name)) {
+                return node;
+            }
+        }
+        return null;
     }
 
     @Override

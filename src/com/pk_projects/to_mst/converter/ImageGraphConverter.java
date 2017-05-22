@@ -4,9 +4,15 @@ import com.pk_projects.to_mst.structure.Graph;
 
 import java.io.File;
 
-public class ImageGraphConverter implements GraphConverter {
+public class ImageGraphConverter extends GraphConverter {
+
+    public ImageGraphConverter(Graph graph) {
+        super(graph);
+    }
+
     @Override
-    public File convert(Graph graph, String path) {
+    public File getFile() {
         return null;
     }
+
 }

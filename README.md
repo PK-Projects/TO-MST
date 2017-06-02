@@ -26,4 +26,4 @@ Krzysiek Jarończyk
 Mateusz Kolasa
 
 # Diagram klas
-![Alt text](docs/heheszki.jpg "Diagram klas")
+![Alt text](docs/classes.png "Diagram klas")

@@ -26,7 +26,4 @@ Krzysiek Jarończyk
 Mateusz Kolasa
 
 # Diagram klas
-`TODO`
-
-# Instrukcja użycia
-`TODO`
+![Alt text](docs/heheszki.jpg "Diagram klas")

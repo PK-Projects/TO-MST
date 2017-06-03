@@ -1,0 +1,4 @@
+[Edge|Edge(Node node1、Node node2、double value);Node getNode1();Node getNode2();double getValue();String toString();boolean equals(Object o);int hashCode()]
+[Graph|Graph();List(Node) getNodes();List(Edge) getEdges();void addElement(Node node1、Node node2、double value);void addElement(Node node);List(Edge);getEdgesBeginInNode(Node node);List(Edge) getEdgesEndInNode(Node node);Node getNodeByName(String name);String toString()]
+[Node|Node(String name、Vector vector);String getName();setName(String name);Vector getVector();void setVector(Vector vector);String toString();boolean equals(Object o);int hashCode()]
+[Vector|Vector(double x、double y);double getX();void setX(double x);double getY();void setY(double y);String toString();boolean equals(Object o);int hashCode()]

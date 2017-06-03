@@ -27,7 +27,7 @@ Mateusz Kolasa
 
 # Diagram klas
 ## Diagram zależności
-![Alt text](docs/classes.png "Diagram klas")\
+![Alt text](docs/classes.png "Diagram klas")
 ## Szczegółowy diagram klas
 ![Alt text](docs/classes2.png "Diagram klas")
 

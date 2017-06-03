@@ -27,6 +27,7 @@ Mateusz Kolasa
 
 # Diagram klas
 ![Alt text](docs/classes.png "Diagram klas")
+![Alt text](docs/classes2.png "Diagram klas")
 
 # Diagram encji
 ![Alt text](docs/entities.png "Diagram encji")

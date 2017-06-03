@@ -22,8 +22,11 @@ Andrzej Zeżuła
 
 Krzysiek Jarończyk
 
-## Dokumentacja
+## Dokumentacja i Project Management
 Mateusz Kolasa
 
 # Diagram klas
 ![Alt text](docs/classes.png "Diagram klas")
+
+# Diagram encji
+![Alt text](docs/entities.png "Diagram encji")

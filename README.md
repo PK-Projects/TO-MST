@@ -26,7 +26,9 @@ Krzysiek Jarończyk
 Mateusz Kolasa
 
 # Diagram klas
-![Alt text](docs/classes.png "Diagram klas")
+## Diagram zależności
+![Alt text](docs/classes.png "Diagram klas")\
+## Szczegółowy diagram klas
 ![Alt text](docs/classes2.png "Diagram klas")
 
 # Diagram encji

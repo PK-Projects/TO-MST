@@ -4,7 +4,8 @@ import com.pk_projects.to_mst.structure.Graph;
 
 public class PrimMST implements MST{
     @Override
-    public Graph getMST(Graph graph) {
+    public Graph getMST(Graph graph)
+    {
         return null;
     }
 }

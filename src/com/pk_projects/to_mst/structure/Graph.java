@@ -7,7 +7,8 @@ public class Graph {
     private List<Node> nodes;
     private List<Edge> edges;
 
-    public Graph() {
+    public Graph()
+    {
         nodes = new ArrayList<Node>();
         edges = new ArrayList<Edge>();
     }
@@ -39,7 +40,8 @@ public class Graph {
     public List<Edge> getEdgesBeginInNode(Node node) {
         List<Edge> result = new ArrayList<Edge>();
         for (Edge edge : edges) {
-            if (node.equals(edge.getNode1())) {
+            if (node.equals(edge.getNode1()))
+            {
                 result.add(edge);
             }
         }
@@ -50,7 +52,8 @@ public class Graph {
     public List<Edge> getEdgesEndInNode(Node node) {
         List<Edge> result = new ArrayList<Edge>();
         for (Edge edge : edges) {
-            if (node.equals(edge.getNode2())) {
+            if (node.equals(edge.getNode2()))
+            {
                 result.add(edge);
             }
         }

@@ -1,6 +1,6 @@
 package com.pk_projects.to_mst.structure;
 
-public class Edge {
+public class Edge implements Comparable<Edge> {
     private Node node1, node2;
     private double value;
 
@@ -27,8 +27,14 @@ public class Edge {
         return "{" + node1 + ", " + node2 + ", " + value + '}';
     }
 
+    public double compareTo(Edge compareEdge)
+    {
+        return this.value-compareEdge.value;
+    }
+
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o)
+    {
         if (this == o) return true;
         if (!(o instanceof Edge)) return false;
 

@@ -7,7 +7,7 @@ import com.pk_projects.to_mst.structure.Vector;
 public class GraphFactory {
     public Graph createFromXml(String filePath) {
         Graph graph = new Graph();
-        Node n = new Node("node1", new Vector(0, 0));
+        Node n = new Node("node1 ", new Vector(0, 0));
         Node n2 = new Node("node2", new Vector(1, 0));
         Node n3 = new Node("node3", new Vector(2, 2));
         Node n4 = new Node("node4", new Vector(3, 3));

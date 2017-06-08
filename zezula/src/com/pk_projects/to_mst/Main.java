@@ -45,7 +45,7 @@ public class Main {
 
         new PaintGraph(graph).drawGraph("Test1");
         //new PaintGraph(primGraph).drawGraph("Test2"); //not null bo sie wyjebie
-       // new PaintGraph(kruskalGraph).drawGraph("Test3");
+       // / new PaintGraph(kruskalGraph).drawGraph("Test3");
         
        
     }

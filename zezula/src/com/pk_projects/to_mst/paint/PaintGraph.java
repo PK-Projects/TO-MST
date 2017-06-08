@@ -18,7 +18,7 @@ import com.pk_projects.to_mst.structure.Node;
  */
 public class PaintGraph {
 
-	// style css dla grafu
+	/// style css dla g rafu 
 	protected String styleSheet = "node {"
 			+ "	size: 30px; shape: box; fill-color: #444, red;  text-color:red; text-background-color: green; text-size:16;"
 			+ "}" + "node:clicked {" + "	fill-color: green;" + "}" + "edge {" + "	size: 2px;"

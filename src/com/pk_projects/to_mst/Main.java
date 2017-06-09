@@ -6,6 +6,7 @@ import com.pk_projects.to_mst.algorithm.PrimMST;
 import com.pk_projects.to_mst.converter.ImageGraphConverter;
 import com.pk_projects.to_mst.converter.XMLGraphConverter;
 import com.pk_projects.to_mst.factory.GraphFactory;
+import com.pk_projects.to_mst.paint.PaintGraph;
 import com.pk_projects.to_mst.structure.Graph;
 
 public class Main {
@@ -38,5 +39,9 @@ public class Main {
         System.out.println(graph);
         System.out.println(primGraph);
         System.out.println(kruskalGraph);
+        
+        new PaintGraph(graph).drawGraph("Test1");
+        //new PaintGraph(primGraph).drawGraph("Test2"); //not null bo sie wyjebie
+       // new PaintGraph(kruskalGraph).drawGraph("Test3");
     }
 }

@@ -17,7 +17,7 @@ public class Main {
         MST kruskalMST = new KruskalMST();
         MST primMST = new PrimMST();
 
-        Graph graph = graphFactory.createFromXml("graph.xml");
+        Graph graph = graphFactory.create();
         imageGraphConverter = new ImageGraphConverter(graph);
         xmlGraphConverter = new XMLGraphConverter(graph);
         imageGraphConverter.getConverted("Graph");

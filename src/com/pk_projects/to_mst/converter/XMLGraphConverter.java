@@ -11,7 +11,6 @@ public class XMLGraphConverter extends GraphConverter {
     }
 
     @Override
-    public File getFile() {
-        return null;
+    public void getConverted(String name) {
     }
 }

@@ -11,5 +11,5 @@ abstract class GraphConverter {
         this.graph = graph;
     }
 
-    abstract public File getFile();
+    abstract void getConverted(String name);
 }

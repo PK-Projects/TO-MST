@@ -21,6 +21,7 @@ Andrzej Mucha
 Andrzej Zeżuła
 
 Krzysiek Jarończyk
+
 Michał Jurasz
 
 ## Dokumentacja i Project Management

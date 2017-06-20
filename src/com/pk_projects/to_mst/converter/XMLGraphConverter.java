@@ -11,14 +11,11 @@ import org.w3c.dom.*;
 
 public class XMLGraphConverter extends GraphConverter {
 
-
-    private Graph graph;
     private Document dom;
     private Element e = null;
 
     public XMLGraphConverter(Graph graph) {
         super(graph);
-	this.graph = graph;
     }
 
     @Override
@@ -41,7 +38,7 @@ public class XMLGraphConverter extends GraphConverter {
     		rootElement.appendChild(nodes);
     		
     		//loop to write node items
-    		for(Node n : graf.getNodes()) {
+    		for(Node n : getNodes()) {
             	Element node = doc.createElement("node");
             	nodes.appendChild(node);
                 
@@ -65,7 +62,7 @@ public class XMLGraphConverter extends GraphConverter {
     		
     		
     		// loop to write edge items
-    		for(Edge edg : graf.getEdges()) {
+    		for(Edge edg : getEdges()) {
             	Element node = doc.createElement("edge");
             	edges.appendChild(node);
                 

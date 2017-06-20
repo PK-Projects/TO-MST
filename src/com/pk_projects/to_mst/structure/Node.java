@@ -44,4 +44,8 @@ public class Node {
     public int hashCode() {
         return name.hashCode();
     }
+
+    public int getNodeNameValue() {
+    	return Integer.parseInt(name);   
+    }
 }

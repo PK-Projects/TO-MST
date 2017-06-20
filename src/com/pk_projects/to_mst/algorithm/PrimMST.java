@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class PrimMST implements MST{
-    @Override
+    @Overrid
     public Graph getMST(Graph graph) {
     	int numberOfNodes = graph.getNumberOfNodes();
     	

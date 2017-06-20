@@ -17,23 +17,23 @@ public class Main {
         MST kruskalMST = new KruskalMST();
         MST primMST = new PrimMST();
 
-        Graph graph = graphFactory.createFromXml("graph.xml");
+        Graph graph = graphFactory.create();
         imageGraphConverter = new ImageGraphConverter(graph);
         xmlGraphConverter = new XMLGraphConverter(graph);
-        imageGraphConverter.getFile();
-        xmlGraphConverter.getFile();
+        imageGraphConverter.getConverted("Graph");
+        xmlGraphConverter.getConverted("Graph.xml");
 
         Graph primGraph = primMST.getMST(graph);
         imageGraphConverter = new ImageGraphConverter(primGraph);
         xmlGraphConverter = new XMLGraphConverter(primGraph);
-        imageGraphConverter.getFile();
-        xmlGraphConverter.getFile();
+//        imageGraphConverter.getConverted("Prim Graph");
+        xmlGraphConverter.getConverted("Prim Graph.xml");
 
         Graph kruskalGraph = kruskalMST.getMST(graph);
         imageGraphConverter = new ImageGraphConverter(kruskalGraph);
         xmlGraphConverter = new XMLGraphConverter(kruskalGraph);
-        imageGraphConverter.getFile();
-        xmlGraphConverter.getFile();
+        imageGraphConverter.getConverted("Kruskal Graph");
+        xmlGraphConverter.getConverted("Kruskal Graph.xml");
 
         System.out.println(graph);
         System.out.println(primGraph);

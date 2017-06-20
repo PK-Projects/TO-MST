@@ -1,0 +1,14 @@
+[KruskalMST]-.-^[MST]
+[PrimMST]-.-^[MST]
+[ImageGraphConverter]-^[GraphConverter]
+[XMLGraphConverter]-^[GraphConverter]
+
+[KruskalMST|Graph getMST(Graph graph)]
+[MST|Graph getMST(Graph graph)]
+[PrimMST|Graph getMST(Graph graph)]
+
+[GraphConverter|GraphConverter(Graph graph);File getFile()]
+[ImageGraphConverter|ImageGraphConverter(Graph graph);File getFile()]
+[XMLGraphConverter|ImageGraphConverter(Graph graph);File getFile()]
+
+[GraphFactory|Graph createFromXml(String filePath)]

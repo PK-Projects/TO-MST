@@ -4,7 +4,7 @@ Aplikacja przygotowana w ramach zajęć z Technologii Obiektowych na Politechnic
 Aplikacja pozwala na konstruowanie minimalnych drzew rozpinających przy użyciu dwóch algorytmów Prime'a i Kruskala. Program umożliwia wczytanie danych z pliku  oraz wygenerowanie plików graficznych z wynikami działania algorytmów.
 
 # Autorzy
-## Struktury danych i integracja projektu
+## Struktury danych
 Darek Matoga
 
 ## Algorytm Prima
@@ -22,11 +22,16 @@ Andrzej Zeżuła
 
 Krzysiek Jarończyk
 
-## Dokumentacja
+Michał Jurasz
+
+## Dokumentacja i Project Management
 Mateusz Kolasa
 
 # Diagram klas
-`TODO`
+## Diagram zależności
+![Alt text](docs/classes.png "Diagram klas")
+## Szczegółowy diagram klas
+![Alt text](docs/classes2.png "Diagram klas")
 
-# Instrukcja użycia
-`TODO`
+# Diagram encji
+![Alt text](docs/entities.png "Diagram encji")
